@@ -8,6 +8,5 @@ class CreateTask(BaseModel):
     user_id: int
 
 class CreateUser(BaseModel):
-    id: int
     username: str
     password_hash: str
