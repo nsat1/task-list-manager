@@ -1,0 +1,6 @@
+# Database Settings
+DB_HOST="pgbouncer"     # use "localhost" if not using Docker
+DB_PORT=5432
+DB_USER=db_user
+DB_PASS="OGU6P2TNUEwxekD0OHe7"
+DB_NAME=db_name
