@@ -5,7 +5,7 @@ class CreateTask(BaseModel):
     title: str
     description: str
     status: bool
-    user_id: int
+    user_id: int | None = None
 
 class CreateUser(BaseModel):
     username: str
