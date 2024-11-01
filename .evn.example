@@ -4,3 +4,11 @@ DB_PORT=5432
 DB_USER=db_user
 DB_PASS="OGU6P2TNUEwxekD0OHe7"
 DB_NAME=db_name
+
+# Token Settings
+SECRET_KEY=ef5cbf68fad8efa3f8791efcf6fc9194a5a6ff5806d6ed64536a8f3555a53251
+ALGORITHM=HS256
+
+# Redis Settings
+REDIS_HOST=localhost
+REDIS_PORT=6379
