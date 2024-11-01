@@ -14,7 +14,7 @@ from app.backend.db import DATABASE_URL
 # access to the values within the .ini file in use.
 config = context.config
 
-config.set_main_option("sqlalchemy.url", DATABASE_URL)
+config.set_main_option("sqlalchemy.url", str(DATABASE_URL))
 
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
