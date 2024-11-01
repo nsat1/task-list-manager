@@ -1,14 +1,14 @@
 # Database Settings
-DB_HOST="pgbouncer"     # use "localhost" if not using Docker
+DB_HOST=db     # use "localhost" if not using Docker
 DB_PORT=5432
 DB_USER=db_user
 DB_PASS="OGU6P2TNUEwxekD0OHe7"
 DB_NAME=db_name
 
 # Token Settings
-SECRET_KEY=ef5cbf68fad8efa3f8791efcf6fc9194a5a6ff5806d6ed64536a8f3555a53251
+SECRET_KEY=ef5cbf68fad8efa3f8791efcf6fc9194a5a6ff5806d6ed64536a8f3555a53251  # openssl rand -hex 32
 ALGORITHM=HS256
 
 # Redis Settings
-REDIS_HOST=localhost
+REDIS_HOST=redis  # use "localhost" if not using Docker
 REDIS_PORT=6379
